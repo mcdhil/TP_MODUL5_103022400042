@@ -1,0 +1,17 @@
+﻿using System;
+
+public class DataGeneric<T>
+{
+    private T data;
+
+    // Konstruktor
+    public DataGeneric(T data)
+    {
+        this.data = data;
+    }
+
+    public void PrintData()
+    {
+        Console.WriteLine($"Data yang tersimpan adalah: {this.data}");
+    }
+}
